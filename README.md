@@ -14,6 +14,6 @@ controller and passes arguments to indicate direction of travel
  Arrive() can safely stop an arriving vehicle by changing the correct signal light to Red and
 block the calling thread.
 
-Implement the above scenario, i.e., the controller program using mutexes and condition variables.
+Implement the above scenario, i.e., the controller program using mutexes.
 Your solution should correctly handle rush hour, during which many vehicles approach the tunnel
 from both directions.
